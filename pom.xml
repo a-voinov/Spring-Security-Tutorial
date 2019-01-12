@@ -63,6 +63,14 @@
 			<version>1.2</version>
 		</dependency>
 
+		<!-- Add support for Spring Security Taglibs-->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-taglibs</artifactId>
+			<version>${springsecurity.version}</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>

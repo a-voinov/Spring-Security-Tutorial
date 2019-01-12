@@ -11,4 +11,14 @@ public class DemoController {
         return "home";
     }
 
+    @GetMapping("/leaders")
+    public String managerPage(){
+        return "leaders";
+    }
+
+    @GetMapping("/systems")
+    public String adminPage(){
+        return "systems";
+    }
+
 }
